@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Micah Ahn | Data and Software Portfolio</title>
+  <meta name="description" content="Micah Ahn: data and reporting in public-sector human services, and computer science at Oregon State University. Projects in databases and web development.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="name" href="#top">Micah Ahn</a>
+      <nav aria-label="Main">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="eyebrow">Data &middot; Databases &middot; Web development</p>
+        <h1>I build the data tools that help human services teams see what's working.</h1>
+        <p class="lede">
+          I work in data and reporting for a social services organization in Multnomah County, Oregon,
+          and I'm studying computer science at Oregon State University. My focus is designing
+          databases and applications that keep program data accurate and easy to use.
+        </p>
+        <div class="cta">
+          <a class="button" href="#projects">See projects</a>
+          <a class="button ghost" href="https://github.com/MICAH-OSU">GitHub</a>
+          <a class="button ghost" href="https://www.linkedin.com/in/micah-a-55441726a">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+
+        <article class="project">
+          <div class="project-text">
+            <p class="tag">CS 340 &middot; Introduction to Databases &middot; Fall 2026</p>
+            <h3>Workout City Fitness Database</h3>
+            <p>
+              A relational database for a fitness studio that tracks customers, trainers, studios,
+              classes and class bookings. Built as a two-person team project, from the
+              entity-relationship design through normalization to a working Python application.
+            </p>
+            <ul class="points">
+              <li>MySQL schema with five tables, including a many-to-many booking table that blocks double-booking</li>
+              <li>DDL and sample data scripts, plus DML queries for every table</li>
+              <li>Python application class that enforces business rules such as class capacity, with a command-line menu on top</li>
+              <li>Team workflow with Git branches and pull requests</li>
+            </ul>
+            <p class="stack">MySQL &middot; SQL &middot; Python &middot; PyMySQL &middot; Git</p>
+            <p class="links">
+              <a href="https://github.com/MICAH-OSU/CS340_TEAM80">Code on GitHub</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-text">
+            <p class="tag">CS 290 &middot; Web Development</p>
+            <h3>Exercise Tracker</h3>
+            <p>
+              A full-stack app for logging workouts: create, view, edit and delete exercises.
+              The React front end can run against the Express and MongoDB API, or entirely in the
+              browser, which is how the live demo runs on GitHub Pages.
+            </p>
+            <ul class="points">
+              <li>REST API with request validation and proper status codes</li>
+              <li>Two interchangeable data layers behind one interface, chosen at build time</li>
+              <li>Shared form component, inline validation messages and accessible controls</li>
+              <li>Automatic deployment with GitHub Actions</li>
+            </ul>
+            <p class="stack">React &middot; JavaScript &middot; Node.js &middot; Express &middot; MongoDB &middot; Vite</p>
+            <p class="links">
+              <a href="https://micah-osu.github.io/exercise-tracker/">Live demo</a>
+              <a href="https://github.com/MICAH-OSU/exercise-tracker">Code on GitHub</a>
+            </p>
+          </div>
+          <a class="project-shot" href="https://micah-osu.github.io/exercise-tracker/">
+            <img src="images/exercise-tracker.png" alt="Exercise Tracker showing a table of logged exercises with edit and delete buttons" width="1000" height="640" loading="lazy">
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap two-col">
+        <h2>About</h2>
+        <div>
+          <p>
+            In my day job I work with HMIS (Homeless Management Information System) data. I build reporting in
+            Google Sheets and SAP BusinessObjects and maintain the forms and scripts behind intake and
+            case management workflows. Funding, program design and equity decisions all depend on
+            that data being right, which is what pulled me toward databases.
+          </p>
+          <p>
+            I'm working toward roles where I design the systems themselves: the schemas, pipelines and
+            applications that let public agencies track services, measure outcomes and see who is
+            being missed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="wrap two-col">
+        <h2>Skills</h2>
+        <dl class="skill-list">
+          <div><dt>Data</dt><dd>SQL, MySQL, MongoDB, relational design and normalization, HMIS reporting</dd></div>
+          <div><dt>Languages</dt><dd>Python, JavaScript, HTML, CSS</dd></div>
+          <div><dt>Web</dt><dd>React, Node.js, Express, REST APIs, Vite</dd></div>
+          <div><dt>Tools</dt><dd>Git and GitHub, Google Apps Script, Google Sheets, SAP BusinessObjects</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p>The best way to reach me is on LinkedIn.</p>
+        <p class="cta">
+          <a class="button" href="https://www.linkedin.com/in/micah-a-55441726a">LinkedIn</a>
+          <a class="button ghost" href="https://github.com/MICAH-OSU">GitHub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Micah Ahn</p>
+    </div>
+  </footer>
+</body>
+</html>
